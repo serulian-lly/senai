@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap');
+
+    @media screen and (min-width: 992px) {
+        h4 {
+            color: rgb(255, 255, 255);
+        }
+
+        body {
+            background-color: #0C0C0C;
+        }
+    } 
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins';  
+    }
+
+    h1 {
+        text-align: center;
+        color: #ffffff;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    header{
+        background-color: #14477a;
+        
+    }
+
+    .bannerPrincipal img {
+        width: 90%;
+        margin-left: 70px;
+    }
+
+    hr {
+        margin: 12px 0px ;
+        border: 2px solid #ffffff;
+    }
+
+    h3{
+        color: #ffffff;
+        margin-left: 70px;
+        margin-right: 550px;
+        font-size: 15px;
+        font-weight: normal;
+        padding-bottom: 35px;
+        padding-top: 35px;
+        text-align: justify;    
+    }
+
+    h5{
+        color: #ffffff;
+        margin-left: 90px;
+        font-size: 36px;
+        padding-top: 25px;
+        text-align: center;
+        text-decoration: overline;
+    
+        text-decoration-color: #00467b;
+    }
+    h6{
+    
+        padding-left: 23%;
+        padding-right: 15%;
+    
+    }
+
+    h2{
+        color: #ffffff;
+        margin-right: 70px;
+        margin-left:550px;
+        padding-bottom: 35px;
+        padding-top: 35px; 
+        font-size: 15px;
+        font-weight: normal;
+        text-align: justify;
+    }
+    .logo {
+        width: 30%;
+        align-items: center;
+    }
+
+    .logo img {
+    
+    display: block; width: 90%;
+    padding-top: 25px;
+    padding-left: 15px;
+    
+    }
+
+    .barra-principal {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 15px;
+        
+    }
+
+    .redessociais img {
+        width: 90%;
+    
+    }
+
+    .redessociais ul {
+        display: flex;
+        
+    }
+
+    .redessociais ul li {
+        list-style: none;
+        width: 5%;
+    
+
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        list-style-type: none;
+        margin: 12px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-weight: 800;
+        padding: 15px;
+        color: #0079d5;
+        background-color: rgba(255, 255, 255, 0.899);
+        border-radius: 7px;
+    }
+
+    nav ul li a:hover {
+        background-color: #0079d5;
+        border-radius: 7px;
+        color: white;
+    }
+
+    .boasvindas h3 {
+        text-transform: capitalize;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 25px;
+        font-size: large;
+        margin-top: -125px;
+        margin-bottom: 20px;
+
+    }
+    form{ color: #ffffff;
+        margin-left:900px;
+        font-family: Arial;
+        font-size: 14px;
+        font-weight: normal;
+        align-items: center;
+        MARGIN-bottom: 25px;
+        margin-top: -170px; 
+    
+    
+    }
+
+    input{
+    
+        height: 45px;
+        width: 150%;
+        border-radius: 3px;
+        border-style: none;
+        margin-bottom: 25px;
+        margin-top: 10px; 
+    
+    }
+    input[type=submit]{
+        align-self: center;
+        background-color: #3aabf5;
+        border-radius: 7px;
+        border: none;
+        color: #ffffff;
+        cursor: pointer;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: bold;
+        height: 55px;
+        justify-content: center; 
+        max-width: 358px;
+        text-align: center;
+        text-decoration: none;
+        width: 150%;
+        margin-top: 20px; 
+        margin-left: -40px;
+    }
+
+    textarea{
+        height: 105px;
+        width: 17%;
+        border-radius: 3px;
+        border-style: none;
+        margin-bottom: 25px;
+        margin-top: -1980px; 
+        margin-left:960px;
+    }
+
+
+
+
+    footer {
+        background-color:#00294D;
+        color: white;
+        font-weight: 700;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
